@@ -34,7 +34,6 @@ public class Order {
     }
 
     public String getOrderSummary() {
-        //StringBuilder summary = new StringBuilder();
         String summary = "Order ID: " + orderId + ", Customer: " + customer.getName() + ", Total Amount: " + totalAmount
                 + "\nItems: ";
 
